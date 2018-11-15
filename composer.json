@@ -2,7 +2,7 @@
     "name": "jdeocampo/laravel-campaign-monitor",
     "description": "A Laravel 5 wrapper for Campaign Monitor using Create-Send-Php version 6.0",
     "keywords": ["laravel", "laravel5", "campaign monitor", "wrapper", "newsletter"],
-    "license": "MIT License",
+    "license": "proprietary",
     "authors": [
         {
             "name": "Jelly de Ocampo",

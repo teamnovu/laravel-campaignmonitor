@@ -3,13 +3,12 @@ A Laravel 5 wrapper for CampaignMonitor APIs
 
 ## Installation
 
-- [Laravel-CampaignMonitor on Packagist](https://packagist.org/packages/casinelli/laravel-campaignmonitor)
-- [Laravel-CampaignMonitor on GitHub](https://github.com/Casinelli/Laravel-CampaignMonitor)
+- [Laravel-CampaignMonitor on GitHub](https://github.com/Jdeocampo/Laravel-CampaignMonitor)
 
 To get the latest version of Laravel-CampaignMonitor simply require it in your `composer.json` file.
 
 ~~~
-"casinelli/laravel-campaignmonitor": "dev-master"
+"jdeocampo/laravel-campaignmonitor": "dev-master"
 ~~~
 
 You'll then need to run `composer install` to download it and have the autoloader updated.
@@ -21,7 +20,7 @@ Once Laravel-CampaignMonitor is installed you need to register the service provi
 
 'providers' => [
 
-    Casinelli\CampaignMonitor\CampaignMonitorServiceProvider::class,
+    Jdeocampo\CampaignMonitor\CampaignMonitorServiceProvider::class,
 
 ]
 ~~~
@@ -33,7 +32,7 @@ Laravel-CampaignMonitor also ships with a facade. You can register the facade in
 
 'aliases' => [
 
-    'CampaignMonitor' => Casinelli\CampaignMonitor\Facades\CampaignMonitor::class,
+    'CampaignMonitor' => Jdeocampo\CampaignMonitor\Facades\CampaignMonitor::class,
 
 ]
 ~~~
@@ -41,7 +40,7 @@ Laravel-CampaignMonitor also ships with a facade. You can register the facade in
 Create the configuration file using artisan
 
 ~~~
-$ php artisan vendor:publish --provider="Casinelli\CampaignMonitor\CampaignMonitorServiceProvider"
+$ php artisan vendor:publish --provider="Jdeocampo\CampaignMonitor\CampaignMonitorServiceProvider"
 ~~~
 
 And set your own API key and Client ID:
