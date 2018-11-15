@@ -1,6 +1,6 @@
 <?php
 
-namespace Casinelli\CampaignMonitor\Facades;
+namespace Jdeocampo\CampaignMonitor\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
