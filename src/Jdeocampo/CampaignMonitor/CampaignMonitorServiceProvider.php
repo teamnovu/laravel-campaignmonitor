@@ -1,6 +1,6 @@
 <?php
 
-namespace Casinelli\CampaignMonitor;
+namespace Jdeocampo\CampaignMonitor;
 
 use Illuminate\Support\ServiceProvider;
 
