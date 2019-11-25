@@ -3,12 +3,12 @@ A Laravel 5 wrapper for CampaignMonitor APIs
 
 ## Installation
 
-- [Laravel-CampaignMonitor on GitHub](https://github.com/Jdeocampo/Laravel-CampaignMonitor)
+- [Laravel-CampaignMonitor on GitHub](https://github.com/teamnovu/laravel-campaignmonitor)
 
 To get the latest version of Laravel-CampaignMonitor simply require it in your `composer.json` file.
 
 ~~~
-"jdeocampo/laravel-campaignmonitor": "dev-master"
+"teamnovu/laravel-campaignmonitor": "dev-master"
 ~~~
 
 You'll then need to run `composer install` to download it and have the autoloader updated.
@@ -20,7 +20,7 @@ Once Laravel-CampaignMonitor is installed you need to register the service provi
 
 'providers' => [
 
-    Jdeocampo\CampaignMonitor\CampaignMonitorServiceProvider::class,
+    Teamnovu\CampaignMonitor\CampaignMonitorServiceProvider::class,
 
 ]
 ~~~
@@ -32,7 +32,7 @@ Laravel-CampaignMonitor also ships with a facade. You can register the facade in
 
 'aliases' => [
 
-    'CampaignMonitor' => Jdeocampo\CampaignMonitor\Facades\CampaignMonitor::class,
+    'CampaignMonitor' => Teamnovu\CampaignMonitor\Facades\CampaignMonitor::class,
 
 ]
 ~~~
@@ -40,7 +40,7 @@ Laravel-CampaignMonitor also ships with a facade. You can register the facade in
 Create the configuration file using artisan
 
 ~~~
-$ php artisan vendor:publish --provider="Jdeocampo\CampaignMonitor\CampaignMonitorServiceProvider"
+$ php artisan vendor:publish --provider="Teamnovu\CampaignMonitor\CampaignMonitorServiceProvider"
 ~~~
 
 And set your own API key and Client ID:

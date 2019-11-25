@@ -1,6 +1,6 @@
 <?php
 
-namespace Jdeocampo\CampaignMonitor;
+namespace Teamnovu\CampaignMonitor;
 
 use Illuminate\Support\ServiceProvider;
 

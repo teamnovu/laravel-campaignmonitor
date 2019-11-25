@@ -1,6 +1,6 @@
 <?php
 
-namespace Jdeocampo\CampaignMonitor\Facades;
+namespace Teamnovu\CampaignMonitor\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
